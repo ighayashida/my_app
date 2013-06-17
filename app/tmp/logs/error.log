@@ -106,3 +106,322 @@ Request URL: /phpmyadmin/index.php
 Stack Trace:
 #0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-06-16 17:02:02 Error: [MissingControllerException] Controller class Sobre-o-eventoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-eventoController',
+  'plugin' => NULL,
+)
+Request URL: /sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:02:37 Error: [MissingControllerException] Controller class Sobre-o-eventoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-eventoController',
+  'plugin' => NULL,
+)
+Request URL: /sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:02:38 Error: [MissingControllerException] Controller class Sobre-o-eventoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-eventoController',
+  'plugin' => NULL,
+)
+Request URL: /sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:03:30 Error: [MissingControllerException] Controller class Sobre-o-eventoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-eventoController',
+  'plugin' => NULL,
+)
+Request URL: /sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:03:32 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /sobre
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:04:05 Error: [MissingControllerException] Controller class Sobre-o-eventoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-eventoController',
+  'plugin' => NULL,
+)
+Request URL: /sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:04:37 Error: [MissingControllerException] Controller class Sobre-o-eventoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-eventoController',
+  'plugin' => NULL,
+)
+Request URL: /sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:05:07 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /sobre
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-16 17:07:34 Error: [MissingViewException] View file "/var/www/my_app/app/View/Pages/sobre-o-evento.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/my_app/app/View/Pages/sobre-o-evento.ctp',
+)
+Request URL: /pages/sobre-o-evento
+Stack Trace:
+#0 /var/www/my_app/lib/Cake/View/View.php(468): View->_getViewFileName('sobre-o-evento')
+#1 /var/www/my_app/lib/Cake/Controller/Controller.php(948): View->render('sobre-o-evento', NULL)
+#2 /var/www/my_app/app/Controller/PagesController.php(73): Controller->render('sobre-o-evento')
+#3 [internal function]: PagesController->display('sobre-o-evento')
+#4 /var/www/my_app/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/my_app/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/my_app/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-06-16 17:44:04 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ',' or ';' in [/var/www/my_app/app/View/Layouts/default.ctp, line 5]
+2013-06-16 17:44:04 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ',' or ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/my_app/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/my_app...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/my_app...', 5, Array)
+#2 /var/www/my_app/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/my_app...', 5, Array)
+#3 /var/www/my_app/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-17 09:36:34 Error: [MissingViewException] View file "/var/www/my_app/app/View/Pages/evento.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/my_app/app/View/Pages/evento.ctp',
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/lib/Cake/View/View.php(468): View->_getViewFileName('evento')
+#1 /var/www/my_app/lib/Cake/Controller/Controller.php(948): View->render('evento', NULL)
+#2 /var/www/my_app/app/Controller/PagesController.php(73): Controller->render('evento')
+#3 [internal function]: PagesController->display('evento')
+#4 /var/www/my_app/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/my_app/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/my_app/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-06-17 09:36:47 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:36:50 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:36:52 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:36:53 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:36:53 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:12 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:15 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:18 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:39 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:40 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:41 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:37:44 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:38:22 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /sobre
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:38:25 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /sobre
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 09:49:58 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:10:06 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:22:40 Error: [MissingControllerException] Controller class EventoController could not be found.
+Exception Attributes: array (
+  'class' => 'EventoController',
+  'plugin' => NULL,
+)
+Request URL: /evento
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:26:53 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:26:56 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:27:04 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:27:06 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:27:11 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-17 10:27:17 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /index
+Stack Trace:
+#0 /var/www/my_app/app/webroot/index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
