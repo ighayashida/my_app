@@ -93,6 +93,23 @@ Configure::write('Dispatcher.filters', array(
 	'CacheDispatcher'
 ));
 
+
+
+/**
+Inflections
+*/
+
+Inflector::rules('plural', array(
+	'irregular' => array('inscricao' => 'inscricoes')
+));
+
+Inflector::rules('singular', array(
+	'irregular' => array('inscricoes' => 'inscricao')
+));
+
+
+
+
 /**
  * Configures default file logging options
  */

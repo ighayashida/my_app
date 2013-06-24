@@ -1,0 +1,96 @@
+div:after, ol:after, form:after, ul:after, dl:after {content:".";display:block;clear:both;visibility:hidden;height:0;overflow:hidden;}
+
+*{
+margin:0px;
+padding:0px;
+font-family: 'Dosis', sans-serif;
+}
+
+body{ 
+background:#f1f1f1; 
+}
+
+#header {
+background: #e8e8e8;
+padding:20px 0px;
+}
+
+.nav {
+padding-top: 5px;
+float: right;
+}
+
+.nav ul li {
+display: inline;
+}
+
+.nav li {
+margin-left: 20px;
+}
+
+.nav li a {
+text-decoration: none;
+color: #666;
+border-bottom: 1px dashed;
+}
+
+.nav li a:hover {
+color: #FF3030;
+border-bottom: 1px solid;
+}
+
+h2, p {
+margin:10px 0px;
+}
+
+h1.logo {
+font-size: 30px;
+font-weight: normal;
+color: #666;
+float: left;
+}
+
+h1.logo b {
+color: #FF3030;
+}
+
+.wrap {
+width:960px; 
+min-width:960px;
+margin:0px auto;
+}
+
+#content {
+padding:20px;
+}
+
+#footer {
+padding:20px;
+color: #666;
+}
+
+fieldset{
+    width:300px;
+    border: none;
+}
+
+form input, form label{ margin:5px; }
+
+form input{
+    float: left;
+    text-align: left;
+    width:173px;
+}
+
+form label{
+    display:block;
+    float:left;
+    text-align:right;
+    width: 100px;
+}
+
+form input.button{
+    width:100px;
+    text-align: center;
+    float: right;
+}

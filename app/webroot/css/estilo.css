@@ -68,3 +68,29 @@ padding:20px;
 padding:20px;
 color: #666;
 }
+
+fieldset{
+    width:300px;
+    border: none;
+}
+
+form input, form label{ margin:5px; }
+
+form input{
+    float: left;
+    text-align: left;
+    width:174px;
+}
+
+form label{
+    display:block;
+    float:left;
+    text-align:right;
+    width: 100px;
+}
+
+form input.button{
+    width:100px;
+    text-align: center;
+    float: right;
+}

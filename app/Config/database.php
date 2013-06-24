@@ -60,7 +60,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'mysql',
+		'password' => 'debian',
 		'database' => 'my_app',
 		'prefix' => '',
 		'encoding' => 'utf8',

@@ -30,11 +30,13 @@
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
-	Router::connect('/pag/*', array('controller' => 'pages', 'action' => 'display'));
-
+	Router::connect('/pagina/*', array('controller' => 'pages', 'action' => 'display'));
+	
     Router::connect('/sobre', array('controller' => 'pages', 'action' => 'display', 'sobre-o-evento'));
     Router::connect('/local', array('controller' => 'pages', 'action' => 'display', 'como-chegar'));
-
+    Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscricao'));
+    Router::connect('/obrigado', array('controller' => 'inscricoes', 'action' => 'obrigado'));
+    
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

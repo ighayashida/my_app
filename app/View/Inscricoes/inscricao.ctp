@@ -1,0 +1,15 @@
+<h2>Inscreva-se !</h2>
+
+<fieldset>
+
+    <?php
+    echo $this->Form->create('inscricao', array('action' => 'inscrever'));
+    echo $this->Form->input('Inscricao.nome', array('label' => 'Nome completo'));
+    echo $this->Form->input('Inscricao.email', array('label' => 'E-mail'));
+    echo $this->Form->input('Inscricao.telefone', array('label' => 'Telefone'));
+    echo $this->Form->input('Inscricao.endereco', array('label' => 'Endereço'));
+    echo $this->Form->submit('Inscrever', array('class' => 'button'));
+    echo $this->Form->end();
+    ?>
+
+</fieldset>

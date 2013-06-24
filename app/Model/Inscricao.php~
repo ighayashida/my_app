@@ -1,0 +1,10 @@
+<?php
+
+class Inscricao extends AppModel{
+    
+    public $tablePrefix = "app_";
+    public $useTable = "inscricoes";
+
+}
+
+?>
